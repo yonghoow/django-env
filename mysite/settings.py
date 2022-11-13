@@ -28,7 +28,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = True
 
 ALLOWED_HOSTS = ['django-quickstart.azurewebsites.net']
-CSRF_TRUSTED_ORIGINS = ['django-quickstart.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://django-quickstart.azurewebsites.net']
 
 # Application definition
 
