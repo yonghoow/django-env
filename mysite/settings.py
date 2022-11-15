@@ -27,7 +27,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-quickstart.azurewebsites.net']
+ALLOWED_HOSTS = ['django-quickstart.azurewebsites.net', 'localhost']
 CSRF_TRUSTED_ORIGINS = ['https://django-quickstart.azurewebsites.net']
 
 # Application definition
@@ -83,7 +83,7 @@ DATABASES = {
 	'USER': os.environ['DATABASE_USER'],
 	'PASSWORD': os.environ['DATABASE_PASSWORD'],
 	'HOST': os.environ['DATABASE_HOST'],
-	'PORT': '', 
+	'PORT': '',
 	#'NAME': 'mydb',
 	#'USER': 'myuser',
 	#'PASSWORD': 'mypass',
